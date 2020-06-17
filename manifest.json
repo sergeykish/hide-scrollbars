@@ -1,0 +1,12 @@
+{
+  "name": "hide-scrollbars",
+  "version": "1.0",
+  "description": "Hide Scrollbars",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["hide-scrollbars.css"]
+    }
+  ]
+}
